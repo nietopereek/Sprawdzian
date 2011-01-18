@@ -1,0 +1,13 @@
+#!/bin/bash
+for i in `seq 1 25`;
+do
+    zmienna1="zad"
+    zmienna2="$i"
+    zmienna3=$zmienna1$zmienna2
+    echo "$zmienna3:"
+    echo " "
+    cat "$zmienna3"
+    echo " "
+    echo "===================="
+    echo " "
+done
